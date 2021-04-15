@@ -77,7 +77,7 @@ class _HomePageState extends State<HomePage> {
                     );
                   default:
                     if(snapshot.hasError) return Container();
-                    else  return _createGifTable(context, snapshot);
+                    else return _createGifTable(context, snapshot);
                 }
               }
             ),
@@ -88,7 +88,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   Widget _createGifTable(BuildContext context, AsyncSnapshot snapshot) {
-
+    return Container();
   }
 
 }
