@@ -95,6 +95,7 @@ class _HomePageState extends State<HomePage> {
 
   int _getCount(List data) {
     if (_search == null) {
+      
       return data.length;
     } else {
       return data.length + 1;
